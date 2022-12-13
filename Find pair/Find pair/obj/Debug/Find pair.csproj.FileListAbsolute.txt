@@ -1,0 +1,11 @@
+C:\!Dizox\Лаби\ЧНУ\2022 рік 1 семестр 2 курсу\ООП\Курсова робота\Find pair\Find pair\bin\Debug\Find pair.exe.config
+C:\!Dizox\Лаби\ЧНУ\2022 рік 1 семестр 2 курсу\ООП\Курсова робота\Find pair\Find pair\bin\Debug\Find pair.exe
+C:\!Dizox\Лаби\ЧНУ\2022 рік 1 семестр 2 курсу\ООП\Курсова робота\Find pair\Find pair\bin\Debug\Find pair.pdb
+C:\!Dizox\Лаби\ЧНУ\2022 рік 1 семестр 2 курсу\ООП\Курсова робота\Find pair\Find pair\obj\Debug\Find pair.csproj.AssemblyReference.cache
+C:\!Dizox\Лаби\ЧНУ\2022 рік 1 семестр 2 курсу\ООП\Курсова робота\Find pair\Find pair\obj\Debug\Find pair.csproj.SuggestedBindingRedirects.cache
+C:\!Dizox\Лаби\ЧНУ\2022 рік 1 семестр 2 курсу\ООП\Курсова робота\Find pair\Find pair\obj\Debug\Find_pair.Properties.Resources.resources
+C:\!Dizox\Лаби\ЧНУ\2022 рік 1 семестр 2 курсу\ООП\Курсова робота\Find pair\Find pair\obj\Debug\Find pair.csproj.GenerateResource.cache
+C:\!Dizox\Лаби\ЧНУ\2022 рік 1 семестр 2 курсу\ООП\Курсова робота\Find pair\Find pair\obj\Debug\Find pair.csproj.CoreCompileInputs.cache
+C:\!Dizox\Лаби\ЧНУ\2022 рік 1 семестр 2 курсу\ООП\Курсова робота\Find pair\Find pair\obj\Debug\Find pair.exe
+C:\!Dizox\Лаби\ЧНУ\2022 рік 1 семестр 2 курсу\ООП\Курсова робота\Find pair\Find pair\obj\Debug\Find pair.pdb
+C:\!Dizox\Лаби\ЧНУ\2022 рік 1 семестр 2 курсу\ООП\Курсова робота\Find pair\Find pair\obj\Debug\Find_pair.Form1.resources
