@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Header;
 
 namespace Find_pair
 {
@@ -22,15 +23,26 @@ namespace Find_pair
 
         Label[] clickedCells = new Label[2];
         int countClick = 0;
+        int difficulty = 0;
+        int timeLeft = 0;
 
         //TableLayoutPanel cell = new TableLayoutPanel();
         //int countCells = 4;
 
         public Form1()
         {
+            Menu();
             InitializeComponent();
             CellsFiller();
             //Init();
+        }
+
+        private void Menu()
+        {
+            MainMenu mainMenu = new MainMenu();
+            MenuItem menuItem = new MenuItem();
+            menuItem.Text = "Difficulty";
+            mainMenu.MenuItems.Add(menuItem);
         }
 
         //void Init () 
@@ -74,7 +86,7 @@ namespace Find_pair
         //}
 
         private void CellsFiller()
-        {      
+        {
             foreach (Control control in tableLayoutPanel1.Controls)
             {
                 Label cellLabel = control as Label;
@@ -88,7 +100,7 @@ namespace Find_pair
             }
         }
 
-        private void CellClick (object sender, EventArgs e)
+        private void CellClick(object sender, EventArgs e)
         {
             if (timer1.Enabled == true)
                 return;
@@ -140,12 +152,13 @@ namespace Find_pair
                         return;
                 }
             }
-            MessageBox.Show($"You matched all the cells!\nSore: {countClick}", "Congratulations");
+            timer2.Stop();
+            MessageBox.Show($"You matched all the cells!\nSсore: {countClick}", "Congratulations");
             Close();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
-        {    
+        {
             timer1.Stop();
 
             clickedCells[0].ForeColor = clickedCells[0].BackColor;
@@ -154,5 +167,48 @@ namespace Find_pair
             clickedCells[0] = null;
             clickedCells[1] = null;
         }
+
+        private void difficultyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void easyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            timeLeft = 40;
+            difficulty = 1;
+            timer2.Start();
+        }
+
+        private void midleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            timeLeft = 30;
+            difficulty = 2;
+            timer2.Start();
+        }
+
+        private void hardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            timeLeft = 20;
+            difficulty = 3;
+            timer2.Start();
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            if (timeLeft > 0)
+            {
+                timeLeft = timeLeft - 1;
+                if (timeLeft > 9)
+                    label18.Text = $"00:{timeLeft}"; 
+                else
+                    label18.Text = $"00:0{timeLeft}";
+            }
+            else
+            {
+                timer2.Stop();
+                MessageBox.Show("You didn't finish in time.", "Defeat!");
+            }
+        } 
     }
 }
