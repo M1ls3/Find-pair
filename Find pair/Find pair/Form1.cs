@@ -25,64 +25,11 @@ namespace Find_pair
         int countClick = 0;    
         int timeLeft = 0;
 
-        //TableLayoutPanel cell = new TableLayoutPanel();
-        //int countCells = 4;
-
         public Form1()
-        {
-            Menu();
+        {       
             InitializeComponent();
             CellsFiller();
-            //Init();
         }
-
-        private void Menu()
-        {
-            MainMenu mainMenu = new MainMenu();
-            MenuItem menuItem = new MenuItem();
-            menuItem.Text = "Difficulty";
-            mainMenu.MenuItems.Add(menuItem);
-        }
-
-        //void Init () 
-        //{
-        //    Text = "Find pair";
-        //    Width = 600;
-        //    Height = 600;
-        //    cell.RowStyles.Add(new RowStyle(SizeType.Percent, 50));
-        //    cell.RowStyles.Add(new RowStyle(SizeType.Percent, 50));
-        //    cell.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50));
-        //    cell.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50));
-
-        //    cell.Dock= DockStyle.Fill;
-        //    cell.CellBorderStyle = TableLayoutPanelCellBorderStyle.Inset;
-        //    Controls.Add(cell);
-        //    cell.Controls.Add(new Label
-        //    {
-        //        Text = "A",
-        //        Dock = DockStyle.Fill,
-        //        BackColor = Color.Wheat,
-        //    },0,0);
-        //    cell.Controls.Add(new Label
-        //    {
-        //        Text = "A",
-        //        Dock = DockStyle.Fill,
-        //        BackColor = Color.Wheat,
-        //    },0,1);
-        //    cell.Controls.Add(new Label
-        //    {
-        //        Text = "A",
-        //        Dock = DockStyle.Fill,
-        //        BackColor = Color.Wheat,
-        //    },1,0);
-        //    cell.Controls.Add(new Label
-        //    {
-        //        Text = "A",
-        //        Dock = DockStyle.Fill,
-        //        BackColor = Color.Wheat,
-        //    },1,1);
-
-        //}
 
         private void CellsFiller()
         {
