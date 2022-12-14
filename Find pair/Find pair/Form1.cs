@@ -22,8 +22,7 @@ namespace Find_pair
         };
 
         Label[] clickedCells = new Label[2];
-        int countClick = 0;
-        int difficulty = 0;
+        int countClick = 0;    
         int timeLeft = 0;
 
         //TableLayoutPanel cell = new TableLayoutPanel();
@@ -176,21 +175,18 @@ namespace Find_pair
         private void easyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             timeLeft = 40;
-            difficulty = 1;
             timer2.Start();
         }
 
         private void midleToolStripMenuItem_Click(object sender, EventArgs e)
         {
             timeLeft = 30;
-            difficulty = 2;
             timer2.Start();
         }
 
         private void hardToolStripMenuItem_Click(object sender, EventArgs e)
         {
             timeLeft = 20;
-            difficulty = 3;
             timer2.Start();
         }
 
@@ -208,6 +204,7 @@ namespace Find_pair
             {
                 timer2.Stop();
                 MessageBox.Show("You didn't finish in time.", "Defeat!");
+                Close();
             }
         } 
     }
