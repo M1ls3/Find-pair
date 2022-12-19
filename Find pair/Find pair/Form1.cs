@@ -47,18 +47,24 @@ namespace Find_pair
         }
 
         private void CellClick(object sender, EventArgs e)
-        {
+        { 
+            // Перевірка встановлення таймеру
             if (timer1.Enabled == true)
                 return;
 
+            // Ініціалізація змінних
             Label clickedLabel = sender as Label;
-            countClick++;
 
             if (clickedLabel != null)
             {
+                // Перевірка на вже відкриту клітинку 
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
+                countClick++;
+
+                // Присвоєння кольору тексту натиснутої клітинки
+                // на чорний, та зберігання посилання на нього
                 if (clickedCells[0] == null)
                 {
                     clickedCells[0] = clickedLabel;
@@ -68,8 +74,10 @@ namespace Find_pair
                 clickedCells[1] = clickedLabel;
                 clickedCells[1].ForeColor = Color.Black;
 
+                // Алгоритм перевірки на завершення гри
                 CheckForWinner();
 
+                // Перевірка на рівність значень клітинок один одному
                 if (clickedCells[0].Text == clickedCells[1].Text)
                 {
                     clickedCells[0] = null;
@@ -77,6 +85,7 @@ namespace Find_pair
                     return;
                 }
 
+                // Запуск таймеру
                 timer1.Start();
             }
         }
@@ -105,11 +114,15 @@ namespace Find_pair
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            // Зупинка таймера, який працював 750 мілісекунд
             timer1.Stop();
 
+            // Присвоєння кольору тексту натиснутих клітинкок
+            // значення кольору фону клітинки
             clickedCells[0].ForeColor = clickedCells[0].BackColor;
             clickedCells[1].ForeColor = clickedCells[1].BackColor;
 
+            // Видалення посилання на клітинки
             clickedCells[0] = null;
             clickedCells[1] = null;
         }
