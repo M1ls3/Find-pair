@@ -9,3 +9,14 @@ C:\!Dizox\Лаби\ЧНУ\2022 рік 1 семестр 2 курсу\ООП\Ку�
 C:\!Dizox\Лаби\ЧНУ\2022 рік 1 семестр 2 курсу\ООП\Курсова робота\Find pair\Find pair\obj\Debug\Find pair.exe
 C:\!Dizox\Лаби\ЧНУ\2022 рік 1 семестр 2 курсу\ООП\Курсова робота\Find pair\Find pair\obj\Debug\Find pair.pdb
 C:\!Dizox\Лаби\ЧНУ\2022 рік 1 семестр 2 курсу\ООП\Курсова робота\Find pair\Find pair\obj\Debug\Find_pair.Form1.resources
+C:\!Dizox\Git\Repositories\Find-pair\Find pair\Find pair\bin\Debug\Find pair.exe.config
+C:\!Dizox\Git\Repositories\Find-pair\Find pair\Find pair\bin\Debug\Find pair.exe
+C:\!Dizox\Git\Repositories\Find-pair\Find pair\Find pair\bin\Debug\Find pair.pdb
+C:\!Dizox\Git\Repositories\Find-pair\Find pair\Find pair\obj\Debug\Find pair.csproj.AssemblyReference.cache
+C:\!Dizox\Git\Repositories\Find-pair\Find pair\Find pair\obj\Debug\Find pair.csproj.SuggestedBindingRedirects.cache
+C:\!Dizox\Git\Repositories\Find-pair\Find pair\Find pair\obj\Debug\Find_pair.Form1.resources
+C:\!Dizox\Git\Repositories\Find-pair\Find pair\Find pair\obj\Debug\Find_pair.Properties.Resources.resources
+C:\!Dizox\Git\Repositories\Find-pair\Find pair\Find pair\obj\Debug\Find pair.csproj.GenerateResource.cache
+C:\!Dizox\Git\Repositories\Find-pair\Find pair\Find pair\obj\Debug\Find pair.csproj.CoreCompileInputs.cache
+C:\!Dizox\Git\Repositories\Find-pair\Find pair\Find pair\obj\Debug\Find pair.exe
+C:\!Dizox\Git\Repositories\Find-pair\Find pair\Find pair\obj\Debug\Find pair.pdb

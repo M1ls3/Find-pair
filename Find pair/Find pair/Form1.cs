@@ -53,7 +53,7 @@ namespace Find_pair
                 return;
 
             // Ініціалізація змінних
-            Label clickedLabel = sender as Label;
+            Label clickedLabel = sender as Label; 
 
             if (clickedLabel != null)
             {
